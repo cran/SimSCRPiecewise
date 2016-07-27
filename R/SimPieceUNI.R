@@ -1,6 +1,6 @@
-#'SimSCRPiecewise
-#'This function simulates semi-competing risks data based on three piecewise exponential hazards, three true regression vectors and three matrices of patient covariates (which can be different or the same).
-#'This simulates from the semi-markov model of Lee et al (2015) given patient covariates, regression parameters and baseline hazard functions.
+#'SimUnivPiecewise
+#'
+#' This function simulates univariate survival data from a piecewise exponential model with a proportional hazards assumption given a covariate matrix, true beta vector, baseline hazard splits, baseline hazard heights and a right censoring time.
 #'@param x1 - Matrix of patient covariates for hazard 1 simulation
 #'@param beta1 - vector of size ncol(x1) that is the true regression coefficient vector for the baseline hazard function
 #'@param s1 - vector of size at least length 2, where the first entry is 0. This characterizes the split point locations of baseline hazard

@@ -2,9 +2,7 @@
 % Please edit documentation in R/SimPieceUNI.R
 \name{SimUNIVPiecewise}
 \alias{SimUNIVPiecewise}
-\title{SimSCRPiecewise
-This function simulates semi-competing risks data based on three piecewise exponential hazards, three true regression vectors and three matrices of patient covariates (which can be different or the same).
-This simulates from the semi-markov model of Lee et al (2015) given patient covariates, regression parameters and baseline hazard functions.}
+\title{SimUnivPiecewise}
 \usage{
 SimUNIVPiecewise(x1, beta1, s1, lam1, cens)
 }
@@ -25,9 +23,7 @@ Entry 2 contains the terminal event times for the patients. Entry 3 contains the
 Entry 4 contains the patient indicators for whether or not they experienced a terminal event.
 }
 \description{
-SimSCRPiecewise
-This function simulates semi-competing risks data based on three piecewise exponential hazards, three true regression vectors and three matrices of patient covariates (which can be different or the same).
-This simulates from the semi-markov model of Lee et al (2015) given patient covariates, regression parameters and baseline hazard functions.
+This function simulates univariate survival data from a piecewise exponential model with a proportional hazards assumption given a covariate matrix, true beta vector, baseline hazard splits, baseline hazard heights and a right censoring time.
 }
 \examples{
 ##Set number of patients and covariate matrices

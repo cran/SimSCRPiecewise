@@ -2,9 +2,7 @@
 % Please edit documentation in R/SimPieceSCR.R
 \name{SimSCRPiecewise}
 \alias{SimSCRPiecewise}
-\title{SimSCRPiecewise
-This function simulates semi-competing risks data based on three piecewise exponential hazards, three true regression vectors and three matrices of patient covariates (which can be different or the same).
-This simulates from the semi-markov model of Lee et al (2015) given patient covariates, regression parameters and baseline hazard functions.}
+\title{SimSCRPiecewise}
 \usage{
 SimSCRPiecewise(x1, x2, x3, beta1, beta2, beta3, s1, s2, s3, lam1, lam2, lam3,
   gamma, cens)
@@ -44,7 +42,6 @@ Entry 2 contains the terminal event times for the patients. Entry 3 contains the
 Entry 4 contains the patient indicators for whether or not they experienced a terminal event.
 }
 \description{
-SimSCRPiecewise
 This function simulates semi-competing risks data based on three piecewise exponential hazards, three true regression vectors and three matrices of patient covariates (which can be different or the same).
 This simulates from the semi-markov model of Lee et al (2015) given patient covariates, regression parameters and baseline hazard functions.
 }

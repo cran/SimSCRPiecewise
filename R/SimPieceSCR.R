@@ -1,4 +1,5 @@
 #'SimSCRPiecewise
+#'
 #'This function simulates semi-competing risks data based on three piecewise exponential hazards, three true regression vectors and three matrices of patient covariates (which can be different or the same).
 #'This simulates from the semi-markov model of Lee et al (2015) given patient covariates, regression parameters and baseline hazard functions.
 #'@param x1 - Matrix of patient covariates for hazard 1 simulation
